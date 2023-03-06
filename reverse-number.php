@@ -1,6 +1,6 @@
 <?php
 
-
+$string = $_GET('string');
 function reverseNumbers($string) {
     $list = [];
     for ($i = 0; $i < strlen($string); $i++) {
